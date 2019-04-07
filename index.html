@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -32,7 +33,8 @@
         <img src="https://github.com/adamrichardturner/adamrichardturner.github.io/blob/master/images/design.jpg?raw=true" alt="Adam Turner's workspace" id="about-image">
       </div>
       <div class="about--container-item">
-        <h2 id="responsive">I love making responsive designs</h2><br><br>
+        <h2>I love making responsive designs</h2><br><br>
+        <span id="header-trigger"></span>
         <p>I have a real passion for web design and development and wish to pursue a career in this area.<br><br> I have strong skills in HTML, CSS and JavaScript and would relish working on a development team.<br><br> I am currently available for
           opportunities.
         </p>
@@ -41,13 +43,14 @@
           <i class="far fa-eye" id="eye"></i>
           <i class="fas fa-edit" id="edit"></i>
           <i class="fas fa-draw-polygon" id="polygon"></i>
+          <span id="projects-trigger"></span>
         </div>
       </div>
     </div>
   </section>
   <!-- Projects Section -->
-  <section class="projects">
-    <h1 id="projects">Projects</h1>
+  <section class="projects" id="projects">
+    <h1>Projects</h1>
     <div class="projects--container">
       <div class="projects--container-item">
         <a href="https://adamrichardturner.github.io/granular/" target="_blank">
@@ -100,7 +103,7 @@
     </div>
   </section>
   <!-- Contact Section -->
-  <section class="contact">
+  <section class="contact" id="contact">
     <h1>Get in Touch</h1>
     <form action="https://formspree.io/adamrichardturner@hotmail.com" method="POST" id="form">
       <div class="form-group has-warning">
