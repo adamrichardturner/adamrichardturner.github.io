@@ -196,6 +196,11 @@ header h2 {
   font-size: 4rem;
 }
 
+.social-links a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .black {
   color: black;
 }
