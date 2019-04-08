@@ -55,8 +55,8 @@ header h2 {
 /* About */
 .about {
   position: relative;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 91%, 100% 6%);
-  clip-path: polygon(0 0, 0 100%, 100% 91%, 100% 6%);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 95%, 100% 5%);
+  clip-path: polygon(0 0, 0 100%, 100% 95%, 100% 5%);
   width: 100%;
   background-color: #D3D3D3;
 }
@@ -117,8 +117,6 @@ header h2 {
 
 /* Projects */
 .projects {
-  -webkit-clip-path: polygon(0 7%, 0 100%, 100% 100%, 100% 0);
-  clip-path: polygon(0 7%, 0 100%, 100% 100%, 100% 0);
   position: relative;
   height: auto;
   width: 100%;
@@ -129,6 +127,7 @@ header h2 {
 .projects h1 {
   padding-top: 40px;
   font-size: 7vmin;
+  z-index: 10;
 }
 
 .projects--container {
@@ -138,13 +137,13 @@ header h2 {
   justify-content: center;
   align-items: center;
   margin: 0 auto 0 auto;
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 
 .projects--container-item {
   margin: 10px;
-  width: 250px;
+  width: 45%;
 }
 
 .projects--container-item p {
@@ -163,8 +162,8 @@ header h2 {
 /* End Projects */
 /* Contact */
 .contact {
-  -webkit-clip-path: polygon(0% 1%, 0 100%, 100% 100%, 100% 9%);
-  clip-path: polygon(0% 1%, 0 100%, 100% 100%, 100% 9%);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 95%, 100% 5%);
+  clip-path: polygon(0 0, 0 100%, 100% 95%, 100% 5%);
   position: relative;
   width: 100%;
   background-color: #D3D3D3;
