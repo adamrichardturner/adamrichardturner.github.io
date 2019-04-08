@@ -116,7 +116,6 @@ header h2 {
 
 .about--icons {
   margin: 10px;
-  padding: 30px;
   font-size: 4rem;
   letter-spacing: 25px;
 }
@@ -312,5 +311,16 @@ label {
 
   #submit {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1251px) {
+  header {
+    height: 450px;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
   }
 }
