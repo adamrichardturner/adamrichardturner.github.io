@@ -121,10 +121,6 @@ header h2 {
 }
 
 /* About end */
-#compass, #eye, #edit, #polygon {
-  transition: transform 2.5s;
-}
-
 /* Projects */
 .projects {
   position: relative;
@@ -214,6 +210,7 @@ label {
   color: black;
 }
 
+/* End Contact */
 /* Media Queries */
 @media only screen and (max-width: 1250px) {
   header h2 {
