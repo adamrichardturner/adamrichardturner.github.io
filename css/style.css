@@ -162,8 +162,8 @@ header h2 {
 /* End Projects */
 /* Contact */
 .contact {
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 95%, 100% 5%);
-  clip-path: polygon(0 0, 0 100%, 100% 95%, 100% 5%);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 5%);
   position: relative;
   width: 100%;
   background-color: #D3D3D3;
