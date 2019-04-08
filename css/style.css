@@ -153,6 +153,7 @@ header h2 {
 .projects--container-item img {
   border: 1px solid black;
   height: auto;
+  transition: 0.5s;
 }
 
 .projects--container-item img:hover {
