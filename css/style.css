@@ -22,6 +22,7 @@ header img {
   margin-top: 2.5%;
   width: 200px;
   border-radius: 50%;
+  transition: 0.5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -317,7 +318,7 @@ label {
 
 @media only screen and (min-width: 1251px) {
   header {
-    height: 375px;
+    height: 450px;
   }
 
   header h2 {
