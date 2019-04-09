@@ -191,6 +191,10 @@ header h2 {
   margin-right: auto;
 }
 
+#submit {
+  width: 100%;
+}
+
 label {
   display: none;
 }
@@ -264,7 +268,7 @@ label {
 
 @media only screen and (max-width: 660px) {
   header {
-    height: 330px;
+    height: 360px;
   }
 
   .about--container-item {
@@ -313,7 +317,7 @@ label {
 
 @media only screen and (min-width: 1251px) {
   header {
-    height: 450px;
+    height: 375px;
   }
 
   header h2 {
