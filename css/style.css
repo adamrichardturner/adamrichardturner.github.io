@@ -154,7 +154,6 @@ header h2 {
 .projects h1 {
   padding-top: 40px;
   font-size: 7vmin;
-  z-index: 10;
 }
 
 .projects--container {
