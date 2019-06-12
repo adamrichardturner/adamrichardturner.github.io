@@ -235,6 +235,12 @@ label {
 
 /* End Contact */
 /* Media Queries */
+@media only screen and (max-width: 1250px) {}
+
+.about--container {
+  height: 555px;
+}
+
 @media only screen and (max-width: 1250px) {
   header h2 {
     font-size: 1.5rem;
